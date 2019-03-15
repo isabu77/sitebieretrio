@@ -33,7 +33,7 @@ header h1 {
 }
 
 section h2 {
-
+	font-size: 14px;
 }
 
 footer h3 {
@@ -51,27 +51,38 @@ footer h3 {
 
 #cuve{
 	background-image: url("./images/background.jpg");
+	float: right;
 	width: 50%;
 	height: 50%;
 }
 
 #vert{
-	float: left;
+	float: right;
 	background-color: green;
 	width: 50%;
+	height: 50%;
 
 }
 
 #bleu{
-	float: left;
 	background-color: blue;
-	top:100%;
+	opacity: 0.90;
+	top: 50%;
 	width: 50%;
 	height: 50%;
 }
 
 #ambree{
-	background-image: url("./images/background.jpg");
+	background-image: url("./images/ambré.jpg");
 	width: 50%;
 	height: 50%;
+}
+
+
+#vert,#bleu{
+	border: 1px solid grey ;
+}
+
+#bleu a{
+	color: black;
 }
